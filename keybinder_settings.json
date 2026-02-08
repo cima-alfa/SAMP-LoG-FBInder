@@ -1,0 +1,346 @@
+{
+    "commands": {
+        "0": {
+            "cmd": "kit",
+            "text": "/item 128 1"
+        },
+        "1": {
+            "cmd": "",
+            "text": ""
+        },
+        "2": {
+            "cmd": "getw",
+            "text": "/item 71 1000\\n/item 72 1000\\n/item 76 1000\\n/item 81 1000\\n/item 78 1000"
+        },
+        "3": {
+            "cmd": "",
+            "text": ""
+        },
+        "4": {
+            "cmd": "c51",
+            "text": "/fesseln %ID_CLOSEST%\\n/d CODE 51 @ %NAME_CLOSEST% (ID: %ID_CLOSEST%) | Position: %POSITION%"
+        },
+        "5": {
+            "cmd": "",
+            "text": ""
+        },
+        "6": {
+            "cmd": "tf",
+            "text": "/transferweapon"
+        },
+        "7": {
+            "cmd": "",
+            "text": ""
+        },
+        "8": {
+            "cmd": "drugs 2",
+            "text": "%VKK_DRUGS%\\nBitte steigen Sie aus Ihrem Fahrzeug aus."
+        },
+        "9": {
+            "cmd": "",
+            "text": ""
+        },
+        "10": {
+            "cmd": "drugs 1",
+            "text": "%VKK_DRUGS%"
+        },
+        "11": {
+            "cmd": "",
+            "text": ""
+        },
+        "12": {
+            "cmd": "drugs",
+            "text": "/item 152 1"
+        },
+        "13": {
+            "cmd": "",
+            "text": ""
+        },
+        "14": {
+            "cmd": "check inv",
+            "text": "test"
+        },
+        "15": {
+            "cmd": "",
+            "text": ""
+        },
+        "16": {
+            "cmd": "to pd",
+            "text": "Sie m\u00fcssen mit mir zur n\u00e4chsten Polizeistation kommen.\\nBitte steigen Sie in mein Fahrzeug ein."
+        },
+        "17": {
+            "cmd": "",
+            "text": ""
+        },
+        "18": {
+            "cmd": "",
+            "text": ""
+        },
+        "19": {
+            "cmd": "",
+            "text": ""
+        }
+    },
+    "keybinds": {
+        "loops": {
+            "0": {
+                "hotkey": "!1",
+                "intro": "/s You have 5 seconds to put your hands up [/hup]",
+                "iterations": "5",
+                "outro": "/s This is your last chance before we open fire",
+                "pause": "1",
+                "reverse": "1",
+                "text": "/s %N%"
+            },
+            "1": {
+                "hotkey": "",
+                "intro": "",
+                "iterations": "5",
+                "outro": "",
+                "pause": "1",
+                "reverse": "1",
+                "text": "%N%"
+            },
+            "2": {
+                "hotkey": "",
+                "intro": "",
+                "iterations": "5",
+                "outro": "",
+                "pause": "1",
+                "reverse": "1",
+                "text": "%N%"
+            },
+            "3": {
+                "hotkey": "",
+                "intro": "",
+                "iterations": "5",
+                "outro": "",
+                "pause": "1",
+                "reverse": "1",
+                "text": "%N%"
+            },
+            "4": {
+                "hotkey": "",
+                "intro": "",
+                "iterations": "5",
+                "outro": "",
+                "pause": "1",
+                "reverse": "1",
+                "text": "%N%"
+            },
+            "5": {
+                "hotkey": "",
+                "intro": "",
+                "iterations": "5",
+                "outro": "",
+                "pause": "1",
+                "reverse": "1",
+                "text": "%N%"
+            }
+        },
+        "settings": {
+            "cancelloop": {
+                "hotkey": "!-"
+            },
+            "togglekeybinder": {
+                "hotkey": "!="
+            }
+        },
+        "texts": {
+            "0": {
+                "hotkey": "!w",
+                "text": "/auf"
+            },
+            "1": {
+                "hotkey": "",
+                "text": ""
+            },
+            "2": {
+                "hotkey": "!2",
+                "text": "/d Position: %POSITION_FULL% | P: [%COORDINATES%]"
+            },
+            "3": {
+                "hotkey": "",
+                "text": ""
+            },
+            "4": {
+                "hotkey": "!3",
+                "text": "/d VS @ %POSITION_FULL% | %HEALTH% HP | %ARMOR% AP | P: [%COORDINATES%]"
+            },
+            "5": {
+                "hotkey": "",
+                "text": ""
+            },
+            "6": {
+                "hotkey": "!4",
+                "text": "/m2"
+            },
+            "7": {
+                "hotkey": "",
+                "text": ""
+            },
+            "8": {
+                "hotkey": "!5",
+                "text": "/m3"
+            },
+            "9": {
+                "hotkey": "",
+                "text": ""
+            },
+            "10": {
+                "hotkey": "!`",
+                "text": "/d CODE 3 @ %POSITION_FULL%"
+            },
+            "11": {
+                "hotkey": "",
+                "text": ""
+            },
+            "12": {
+                "hotkey": "`",
+                "text": "/bl"
+            },
+            "13": {
+                "hotkey": "!,",
+                "text": "/spikes"
+            },
+            "14": {
+                "hotkey": "!f",
+                "text": "/fesseln %ID_CLOSEST%"
+            },
+            "15": {
+                "hotkey": "!b",
+                "text": "/blockade 1"
+            },
+            "16": {
+                "hotkey": "!v",
+                "text": "/undercover"
+            },
+            "17": {
+                "hotkey": "!n",
+                "text": "/blockade 2"
+            },
+            "18": {
+                "hotkey": "!c",
+                "text": "/s This is a FBI undercover operation"
+            },
+            "19": {
+                "hotkey": "!m",
+                "text": "/blockade 3"
+            }
+        },
+        "weapons": {
+            "handguns": {
+                "hotkey": "XButton2"
+            },
+            "rifles": {
+                "hotkey": "1"
+            },
+            "rifles_auto": {
+                "hotkey": "XButton1"
+            },
+            "shotguns": {
+                "hotkey": "3"
+            },
+            "smgs": {
+                "hotkey": "4"
+            }
+        }
+    },
+    "other": {
+        "afk_timer": "1",
+        "auto_update": 1,
+        "dev_mode": "0",
+        "overlay": {
+            "active": "1",
+            "x": "124",
+            "y": "458"
+        },
+        "patch_notes": 1,
+        "window_pos": {
+            "x": "center",
+            "y": "center"
+        }
+    },
+    "variables": {
+        "0": {
+            "text": "%POSITION% r. %DIRECTION%",
+            "var": "POSITION_FULL"
+        },
+        "1": {
+            "text": "Aufgrund des j\u00fcngsten Anstiegs des Drogenkonsums werden wir einen Schnelltest durchf\u00fchren.",
+            "var": "VKK_DRUGS"
+        },
+        "2": {
+            "text": "%POS_X%, %POS_Y%, %POS_Z%",
+            "var": "COORDINATES"
+        },
+        "3": {
+            "text": "",
+            "var": ""
+        },
+        "4": {
+            "text": "",
+            "var": ""
+        },
+        "5": {
+            "text": "",
+            "var": ""
+        },
+        "6": {
+            "text": "",
+            "var": ""
+        },
+        "7": {
+            "text": "",
+            "var": ""
+        },
+        "8": {
+            "text": "",
+            "var": ""
+        },
+        "9": {
+            "text": "",
+            "var": ""
+        },
+        "10": {
+            "text": "",
+            "var": ""
+        },
+        "11": {
+            "text": "",
+            "var": ""
+        },
+        "12": {
+            "text": "",
+            "var": ""
+        },
+        "13": {
+            "text": "",
+            "var": ""
+        },
+        "14": {
+            "text": "",
+            "var": ""
+        },
+        "15": {
+            "text": "",
+            "var": ""
+        },
+        "16": {
+            "text": "",
+            "var": ""
+        },
+        "17": {
+            "text": "",
+            "var": ""
+        },
+        "18": {
+            "text": "",
+            "var": ""
+        },
+        "19": {
+            "text": "",
+            "var": ""
+        }
+    }
+}

@@ -57,8 +57,8 @@
             "text": ""
         },
         "14": {
-            "cmd": "check inv",
-            "text": "test"
+            "cmd": "",
+            "text": ""
         },
         "15": {
             "cmd": "",
@@ -85,9 +85,9 @@
         "loops": {
             "0": {
                 "hotkey": "!1",
-                "intro": "/s You have 5 seconds to put your hands up [/hup]",
+                "intro": "/s Sie haben 5 Sekunden Zeit, die Hände hochzuhalten [/hup]",
                 "iterations": "5",
-                "outro": "/s This is your last chance before we open fire",
+                "outro": "/s Das ist deine letzte Chance, bevor wir das Feuer eröffnen",
                 "pause": "1",
                 "reverse": "1",
                 "text": "/s %N%"
@@ -221,7 +221,7 @@
             },
             "18": {
                 "hotkey": "!c",
-                "text": "/s This is a FBI undercover operation"
+                "text": "/s Dies ist eine verdeckte Ermittlung des FBI"
             },
             "19": {
                 "hotkey": "!m",

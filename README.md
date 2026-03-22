@@ -1,6 +1,6 @@
 # Keybinder for Life of German SAMP
 
-Built using AHK v1.1 32-bit ASI
+Built using AHK v1.1 32-bit ANSI
 
 ## Features:
 
